@@ -6,16 +6,16 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 |---|---:|---:|---:|---|
 | App - Script | 33 | 1 | 0 | ⏳ Pendiente de documentación retroactiva |
 | App - System | 43 | 0 | 0 | ⏳ Sin validaciones previas |
-| Cracking | 70 | 4 | 0 | ⏳ Pendiente de documentación retroactiva |
-| Cryptanalysis | 75 | 4 | 0 | ⏳ Pendiente de documentación retroactiva |
+| Cracking | 70 | 4 | 4 | ✅ Documentación retroactiva completa |
+| Cryptanalysis | 75 | 4 | 2 | 🚧 En documentación retroactiva |
 | Forensic | 48 | 0 | 0 | ⏳ Sin validaciones previas |
-| Network | 35 | 4 | 0 | ⏳ Pendiente de documentación retroactiva |
+| Network | 35 | 4 | 4 | ✅ Documentación retroactiva completa |
 | Programming | 29 | 0 | 0 | ⏳ Sin validaciones previas |
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
 | Web - Server | 97 | 21 | 21 | ✅ Documentación retroactiva completa |
-| **Total** | **558** | **43** | **30** | **🚧 En curso** |
+| **Total** | **558** | **43** | **40** | **🚧 En curso** |
 
 ## Bitácora de revalidación
 
@@ -51,6 +51,16 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | 2026-10-28 | Javascript - Native code | Reconstrucción retroactiva con depuración de JavaScript; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-native-code](challenges/web-client/javascript-native-code/README.md) |
 | 2026-10-28 | Javascript - Obfuscation 3 | Reconstrucción retroactiva de conversiones de cadenas; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-obfuscation-3](challenges/web-client/javascript-obfuscation-3/README.md) |
 | 2026-10-28 | XSS - Stored 1 | Reconstrucción retroactiva del flujo XSS almacenado; la cuenta confirma la resolución y se registró «Like». | [web-client/xss-stored-1](challenges/web-client/xss-stored-1/README.md) |
+| 2026-10-28 | FTP - authentication | Reproducido al analizar comandos FTP en texto claro de la captura oficial; se registró «Like». | [network/ftp-authentication](challenges/network/ftp-authentication/README.md) |
+| 2026-10-28 | TELNET - authentication | Reproducido al reconstruir la autenticación desde la captura Telnet oficial; se registró «Like». | [network/telnet-authentication](challenges/network/telnet-authentication/README.md) |
+| 2026-10-28 | ETHERNET - frame | Reproducido al decodificar la autorización HTTP Basic del volcado oficial; se registró «Like». | [network/ethernet-frame](challenges/network/ethernet-frame/README.md) |
+| 2026-10-28 | Twitter authentication | Reproducido al analizar una cabecera de autorización HTTP en la captura oficial; se registró «Like». | [network/twitter-authentication](challenges/network/twitter-authentication/README.md) |
+| 2026-10-28 | ELF x86 - 0 protection | Recurso oficial revisado mediante análisis estático; la cuenta confirma la resolución y se registró «Like». | [cracking/elf-x86-0-protection](challenges/cracking/elf-x86-0-protection/README.md) |
+| 2026-10-28 | ELF x86 - Basic | Recurso oficial revisado mediante análisis de comparaciones x86; la cuenta confirma la resolución y se registró «Like». | [cracking/elf-x86-basic](challenges/cracking/elf-x86-basic/README.md) |
+| 2026-10-28 | PE x86 - 0 protection | Recurso oficial revisado mediante análisis estático de PE; la cuenta confirma la resolución y se registró «Like». | [cracking/pe-x86-0-protection](challenges/cracking/pe-x86-0-protection/README.md) |
+| 2026-10-28 | ELF C++ - 0 protection | Recurso oficial revisado mediante análisis de la rutina C++; la cuenta confirma la resolución y se registró «Like». | [cracking/elf-cpp-0-protection](challenges/cracking/elf-cpp-0-protection/README.md) |
+| 2026-10-28 | Encoding - ASCII | Técnica de conversión ASCII documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/encoding-ascii](challenges/cryptanalysis/encoding-ascii/README.md) |
+| 2026-10-28 | Encoding - UU | Técnica de decodificación uuencode documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/encoding-uu](challenges/cryptanalysis/encoding-uu/README.md) |
 
 ## Criterio de registro
 
