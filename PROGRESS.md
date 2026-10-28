@@ -4,10 +4,10 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 
 | Categoría | Catálogo | Validados en plataforma | Revalidados y documentados | Estado |
 |---|---:|---:|---:|---|
-| App - Script | 33 | 1 | 0 | ⏳ Pendiente de documentación retroactiva |
+| App - Script | 33 | 1 | 1 | ✅ Documentación retroactiva completa |
 | App - System | 43 | 0 | 0 | ⏳ Sin validaciones previas |
 | Cracking | 70 | 4 | 4 | ✅ Documentación retroactiva completa |
-| Cryptanalysis | 75 | 4 | 2 | 🚧 En documentación retroactiva |
+| Cryptanalysis | 75 | 4 | 4 | ✅ Documentación retroactiva completa |
 | Forensic | 48 | 0 | 0 | ⏳ Sin validaciones previas |
 | Network | 35 | 4 | 4 | ✅ Documentación retroactiva completa |
 | Programming | 29 | 0 | 0 | ⏳ Sin validaciones previas |
@@ -15,7 +15,7 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
 | Web - Server | 97 | 21 | 21 | ✅ Documentación retroactiva completa |
-| **Total** | **558** | **43** | **40** | **🚧 En curso** |
+| **Total** | **558** | **43** | **43** | **✅ Documentación retroactiva completa** |
 
 ## Bitácora de revalidación
 
@@ -61,6 +61,9 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | 2026-10-28 | ELF C++ - 0 protection | Recurso oficial revisado mediante análisis de la rutina C++; la cuenta confirma la resolución y se registró «Like». | [cracking/elf-cpp-0-protection](challenges/cracking/elf-cpp-0-protection/README.md) |
 | 2026-10-28 | Encoding - ASCII | Técnica de conversión ASCII documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/encoding-ascii](challenges/cryptanalysis/encoding-ascii/README.md) |
 | 2026-10-28 | Encoding - UU | Técnica de decodificación uuencode documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/encoding-uu](challenges/cryptanalysis/encoding-uu/README.md) |
+| 2026-10-28 | Hash - Message Digest 5 | Técnica de comparación MD5 documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/hash-md5](challenges/cryptanalysis/hash-md5/README.md) |
+| 2026-10-28 | Hash - SHA-2 | Técnica de comparación SHA-2 documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/hash-sha-2](challenges/cryptanalysis/hash-sha-2/README.md) |
+| 2026-10-28 | Bash - System 1 | Técnica de PATH hijacking en binario SUID documentada; la cuenta confirma la resolución y se registró «Like». | [app-script/bash-system-1](challenges/app-script/bash-system-1/README.md) |
 
 ## Criterio de registro
 
