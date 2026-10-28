@@ -14,8 +14,8 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 0 | ⏳ Pendiente de documentación retroactiva |
-| Web - Server | 97 | 21 | 4 | 🚧 En documentación retroactiva |
-| **Total** | **558** | **43** | **4** | **🚧 En curso** |
+| Web - Server | 97 | 21 | 10 | 🚧 En documentación retroactiva |
+| **Total** | **558** | **43** | **10** | **🚧 En curso** |
 
 ## Bitácora de revalidación
 
@@ -25,6 +25,12 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | 2026-10-28 | HTTP - Open redirect | Reproducido en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 10 puntos. | [web-server/http-open-redirect](challenges/web-server/http-open-redirect/README.md) |
 | 2026-10-28 | HTTP - User-agent | Reproducido con la cabecera `User-Agent` controlada; Root-Me confirma que la cuenta ya obtuvo los 10 puntos. | [web-server/http-user-agent](challenges/web-server/http-user-agent/README.md) |
 | 2026-10-28 | Weak password | Reproducido con autenticación HTTP Basic en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 10 puntos. | [web-server/weak-password](challenges/web-server/weak-password/README.md) |
+| 2026-10-28 | PHP - Command injection | Reproducido mediante inyección de comandos en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 10 puntos. | [web-server/php-command-injection](challenges/web-server/php-command-injection/README.md) |
+| 2026-10-28 | Backup file | Reproducido al recuperar una copia de seguridad expuesta y autenticar en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 10 puntos. | [web-server/backup-file](challenges/web-server/backup-file/README.md) |
+| 2026-10-28 | HTTP - Directory indexing | Reproducido al recorrer índices de directorio expuestos en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 15 puntos. | [web-server/http-directory-indexing](challenges/web-server/http-directory-indexing/README.md) |
+| 2026-10-28 | HTTP - Headers | Reproducido al modificar la cabecera de petición indicada por la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 15 puntos. | [web-server/http-headers](challenges/web-server/http-headers/README.md) |
+| 2026-10-28 | HTTP POST | Reproducido al modificar un parámetro de formulario que la instancia oficial confía al cliente; Root-Me confirma que la cuenta ya obtuvo los 15 puntos. | [web-server/http-post](challenges/web-server/http-post/README.md) |
+| 2026-10-28 | HTTP - Improper redirect | Reproducido al conservar el cuerpo de una redirección de la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 15 puntos. | [web-server/http-improper-redirect](challenges/web-server/http-improper-redirect/README.md) |
 
 ## Criterio de registro
 
