@@ -1,0 +1,9 @@
+# Credenciales, flags y material temporal de análisis.
+creds.txt
+flags.txt
+scripts/creds.txt
+scripts/flags.json
+notes/host-characteristics.md
+tmp/
+__pycache__/
+*.pyc
