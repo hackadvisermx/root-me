@@ -13,9 +13,9 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Programming | 29 | 0 | 0 | ⏳ Sin validaciones previas |
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
-| Web - Client | 42 | 9 | 0 | ⏳ Pendiente de documentación retroactiva |
-| Web - Server | 97 | 21 | 20 | 🚧 En documentación retroactiva |
-| **Total** | **558** | **43** | **20** | **🚧 En curso** |
+| Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
+| Web - Server | 97 | 21 | 21 | ✅ Documentación retroactiva completa |
+| **Total** | **558** | **43** | **30** | **🚧 En curso** |
 
 ## Bitácora de revalidación
 
@@ -41,6 +41,16 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | 2026-10-28 | File upload - Null byte | Reproducido al cargar un archivo con byte nulo codificado en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 25 puntos. | [web-server/file-upload-null-byte](challenges/web-server/file-upload-null-byte/README.md) |
 | 2026-10-28 | PHP - assert() | Reproducido mediante evaluación insegura en `assert()` en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 25 puntos. | [web-server/php-assert](challenges/web-server/php-assert/README.md) |
 | 2026-10-28 | PHP - Filters | Reproducido mediante el wrapper `php://filter` en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 25 puntos. | [web-server/php-filters](challenges/web-server/php-filters/README.md) |
+| 2026-10-28 | PHP - register globals | Reproducido al inicializar indebidamente el estado de sesión desde la query de la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 25 puntos. | [web-server/php-register-globals](challenges/web-server/php-register-globals/README.md) |
+| 2026-10-28 | HTML - disabled buttons | Reproducido al habilitar controles HTML únicamente en la instancia oficial; Root-Me confirma que la cuenta ya obtuvo los 5 puntos. | [web-client/html-disabled-buttons](challenges/web-client/html-disabled-buttons/README.md) |
+| 2026-10-28 | Javascript - Authentication | Reconstrucción retroactiva de la autenticación cliente; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-authentication](challenges/web-client/javascript-authentication/README.md) |
+| 2026-10-28 | Javascript - Source | Reconstrucción retroactiva mediante recursos JavaScript; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-source](challenges/web-client/javascript-source/README.md) |
+| 2026-10-28 | Javascript - Authentication 2 | Reconstrucción retroactiva de la comprobación cliente; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-authentication-2](challenges/web-client/javascript-authentication-2/README.md) |
+| 2026-10-28 | Javascript - Obfuscation 1 | Reconstrucción retroactiva de la decodificación cliente; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-obfuscation-1](challenges/web-client/javascript-obfuscation-1/README.md) |
+| 2026-10-28 | Javascript - Obfuscation 2 | Reconstrucción retroactiva de la ofuscación cliente; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-obfuscation-2](challenges/web-client/javascript-obfuscation-2/README.md) |
+| 2026-10-28 | Javascript - Native code | Reconstrucción retroactiva con depuración de JavaScript; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-native-code](challenges/web-client/javascript-native-code/README.md) |
+| 2026-10-28 | Javascript - Obfuscation 3 | Reconstrucción retroactiva de conversiones de cadenas; la cuenta confirma la resolución y se registró «Like». | [web-client/javascript-obfuscation-3](challenges/web-client/javascript-obfuscation-3/README.md) |
+| 2026-10-28 | XSS - Stored 1 | Reconstrucción retroactiva del flujo XSS almacenado; la cuenta confirma la resolución y se registró «Like». | [web-client/xss-stored-1](challenges/web-client/xss-stored-1/README.md) |
 
 ## Criterio de registro
 
