@@ -51,8 +51,18 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 26 | Node - Serialize | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/node-serialize/README.md) |
 | 27 | NoSQL injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/nosql-injection-authentication/README.md) |
 | 28 | PHP - Path Truncation | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/php-path-truncation/README.md) |
-| 29 | SQL injection - Numeric | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-numeric/README.md) |
-| 30 | SQL Injection - Routed | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-routed/README.md) |
+| 29 | PHP - Serialization | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-serialization/README.md) |
+| 30 | SQL injection - Numeric | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-numeric/README.md) |
+| 31 | SQL Injection - Routed | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-routed/README.md) |
+| 32 | SQL Truncation | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-truncation/README.md) |
+| 33 | XML External Entity | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xml-external-entity/README.md) |
+| 34 | XPath injection - Authentication | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xpath-injection-authentication/README.md) |
+| 35 | Yaml - Deserialization | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/yaml-deserialization/README.md) |
+| 36 | API - Broken Access 2 | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/api-broken-access-2/README.md) |
+| 37 | GraphQL - Backend injection | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-backend-injection/README.md) |
+| 38 | GraphQL - Mutation | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-mutation/README.md) |
+| 39 | Java - Spring Boot | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/java-spring-boot/README.md) |
+| 40 | Local File Inclusion - Wrappers | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/local-file-inclusion-wrappers/README.md) |
 
 ## Bitácora de revalidación
 
