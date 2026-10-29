@@ -2,7 +2,7 @@
 
 Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. Se diferencia el avance de la cuenta en plataforma de los writeups que ya fueron reproducidos y publicados en este repositorio.
 
-| Categoría | Catálogo | Validados en plataforma | Revalidados y documentados | Estado |
+| Categoría | Catálogo | Validados en plataforma | Validados y documentados | Estado |
 |---|---:|---:|---:|---|
 | App - Script | 33 | 1 | 1 | ✅ Documentación retroactiva completa |
 | App - System | 43 | 0 | 0 | ⏳ Sin validaciones previas |
@@ -17,11 +17,11 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Web - Server | 97 | 28 | 28 | 🚧 Ampliación en orden de catálogo |
 | **Total** | **558** | **50** | **50** | **🚧 Ampliación en curso** |
 
-## Desglose de revalidados y documentados
+## Desglose de validados y documentados
 
-Los números de esta sección son el detalle trazable del concentrado superior. Los retos verdes del orden activo de Web Server son sólo la ampliación actual; sus validaciones históricas se listan más abajo.
+Los números de esta sección son el detalle trazable del concentrado superior. Cada categoría se presenta en el mismo orden en que Root-Me muestra su catálogo.
 
-| Categoría | Revalidados y documentados | Desglose |
+| Categoría | Validados y documentados | Desglose |
 |---|---:|---|
 | App - Script | 1 | [Bash - System 1](challenges/app-script/bash-system-1/README.md) |
 | Cracking | 4 | [ELF x86 - 0 protection](challenges/cracking/elf-x86-0-protection/README.md), [ELF x86 - Basic](challenges/cracking/elf-x86-basic/README.md), [PE x86 - 0 protection](challenges/cracking/pe-x86-0-protection/README.md), [ELF C++ - 0 protection](challenges/cracking/elf-cpp-0-protection/README.md) |
@@ -37,41 +37,41 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 
 | # catálogo | Reto | Estado | Writeup |
 |---:|---|---|---|
-| 1 | HTML - Source code | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/html-source-code/README.md) |
-| 2 | HTTP - IP restriction bypass | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/http-ip-restriction-bypass/README.md) |
-| 3 | HTTP - Open redirect | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-open-redirect/README.md) |
-| 4 | HTTP - User-agent | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-user-agent/README.md) |
-| 5 | Weak password | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/weak-password/README.md) |
-| 6 | PHP - Command injection | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-command-injection/README.md) |
-| 7 | API - Broken Access | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/api-broken-access/README.md) |
-| 8 | Backup file | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/backup-file/README.md) |
-| 9 | HTTP - Directory indexing | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-directory-indexing/README.md) |
-| 10 | HTTP - Headers | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-headers/README.md) |
-| 11 | HTTP - POST | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-post/README.md) |
-| 12 | HTTP - Improper redirect | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-improper-redirect/README.md) |
-| 13 | HTTP - Verb tampering | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-verb-tampering/README.md) |
-| 14 | Install files | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/install-files/README.md) |
-| 15 | Nginx - Alias Misconfiguration | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/nginx-alias-misconfiguration/README.md) |
-| 16 | Nginx - Root Location Misconfiguration | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/nginx-root-location-misconfiguration/README.md) |
-| 17 | API - Mass Assignment | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/api-mass-assignment/README.md) |
-| 18 | CRLF | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/crlf/README.md) |
-| 19 | File upload - Double extensions | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/file-upload-double-extensions/README.md) |
-| 20 | File upload - MIME type | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/file-upload-mime-type/README.md) |
-| 21 | Flask - Unsecure session | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/flask-unsecure-session/README.md) |
-| 22 | GraphQL - Introspection | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/graphql-introspection/README.md) |
-| 23 | HTTP - Cookies | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-cookies/README.md) |
+| 1 | HTML - Source code | ✅ Validado y documentado | [writeup](challenges/web-server/html-source-code/README.md) |
+| 2 | HTTP - IP restriction bypass | ✅ Validado y documentado | [writeup](challenges/web-server/http-ip-restriction-bypass/README.md) |
+| 3 | HTTP - Open redirect | ✅ Validado y documentado | [writeup](challenges/web-server/http-open-redirect/README.md) |
+| 4 | HTTP - User-agent | ✅ Validado y documentado | [writeup](challenges/web-server/http-user-agent/README.md) |
+| 5 | Weak password | ✅ Validado y documentado | [writeup](challenges/web-server/weak-password/README.md) |
+| 6 | PHP - Command injection | ✅ Validado y documentado | [writeup](challenges/web-server/php-command-injection/README.md) |
+| 7 | API - Broken Access | ✅ Validado y documentado | [writeup](challenges/web-server/api-broken-access/README.md) |
+| 8 | Backup file | ✅ Validado y documentado | [writeup](challenges/web-server/backup-file/README.md) |
+| 9 | HTTP - Directory indexing | ✅ Validado y documentado | [writeup](challenges/web-server/http-directory-indexing/README.md) |
+| 10 | HTTP - Headers | ✅ Validado y documentado | [writeup](challenges/web-server/http-headers/README.md) |
+| 11 | HTTP - POST | ✅ Validado y documentado | [writeup](challenges/web-server/http-post/README.md) |
+| 12 | HTTP - Improper redirect | ✅ Validado y documentado | [writeup](challenges/web-server/http-improper-redirect/README.md) |
+| 13 | HTTP - Verb tampering | ✅ Validado y documentado | [writeup](challenges/web-server/http-verb-tampering/README.md) |
+| 14 | Install files | ✅ Validado y documentado | [writeup](challenges/web-server/install-files/README.md) |
+| 15 | Nginx - Alias Misconfiguration | ✅ Validado y documentado | [writeup](challenges/web-server/nginx-alias-misconfiguration/README.md) |
+| 16 | Nginx - Root Location Misconfiguration | ✅ Validado y documentado | [writeup](challenges/web-server/nginx-root-location-misconfiguration/README.md) |
+| 17 | API - Mass Assignment | ✅ Validado y documentado | [writeup](challenges/web-server/api-mass-assignment/README.md) |
+| 18 | CRLF | ✅ Validado y documentado | [writeup](challenges/web-server/crlf/README.md) |
+| 19 | File upload - Double extensions | ✅ Validado y documentado | [writeup](challenges/web-server/file-upload-double-extensions/README.md) |
+| 20 | File upload - MIME type | ✅ Validado y documentado | [writeup](challenges/web-server/file-upload-mime-type/README.md) |
+| 21 | Flask - Unsecure session | ✅ Validado y documentado | [writeup](challenges/web-server/flask-unsecure-session/README.md) |
+| 22 | GraphQL - Introspection | ✅ Validado y documentado | [writeup](challenges/web-server/graphql-introspection/README.md) |
+| 23 | HTTP - Cookies | ✅ Validado y documentado | [writeup](challenges/web-server/http-cookies/README.md) |
 | 24 | Insecure Code Management | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/insecure-code-management/README.md) |
 | 25 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
 | 26 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
-| 27 | Directory traversal | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/directory-traversal/README.md) |
-| 28 | File upload - Null byte | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/file-upload-null-byte/README.md) |
+| 27 | Directory traversal | ✅ Validado y documentado | [writeup](challenges/web-server/directory-traversal/README.md) |
+| 28 | File upload - Null byte | ✅ Validado y documentado | [writeup](challenges/web-server/file-upload-null-byte/README.md) |
 | 29 | JWT - Revoked token | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-revoked-token/README.md) |
 | 30 | JWT - Weak secret | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-weak-secret/README.md) |
 | 31 | JWT - Unsecure File Signature | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-file-signature/README.md) |
-| 32 | PHP - assert() | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-assert/README.md) |
+| 32 | PHP - assert() | ✅ Validado y documentado | [writeup](challenges/web-server/php-assert/README.md) |
 | 33 | PHP - Apache configuration | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-apache-configuration/README.md) |
-| 34 | PHP - Filters | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-filters/README.md) |
-| 35 | PHP - register globals | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-register-globals/README.md) |
+| 34 | PHP - Filters | ✅ Validado y documentado | [writeup](challenges/web-server/php-filters/README.md) |
+| 35 | PHP - register globals | ✅ Validado y documentado | [writeup](challenges/web-server/php-register-globals/README.md) |
 | 36 | PHP - Remote Xdebug | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/PHP-Remote-Xdebug) |
 | 37 | Python - Server-side Template Injection Introduction | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/Python-Server-side-Template-Injection-Introduction) |
 | 38 | File upload - ZIP | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/File-upload-ZIP) |
@@ -135,56 +135,56 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 96 | XPath injection - Blind | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/XPath-injection-Blind) |
 | 97 | SQL injection - Filter bypass | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/SQL-injection-Filter-bypass) |
 
-## Otras categorías — retos revalidados y documentados
+## Otras categorías — retos validados y documentados
 
-### App - Script
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | Bash - System 1 | ✅ Validado y «Like» registrado | [writeup](challenges/app-script/bash-system-1/README.md) |
-
-### Cracking
+### App - Script — orden del catálogo
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
-| 1 | ELF x86 - 0 protection | ✅ Validado y «Like» registrado | [writeup](challenges/cracking/elf-x86-0-protection/README.md) |
-| 2 | ELF x86 - Basic | ✅ Validado y «Like» registrado | [writeup](challenges/cracking/elf-x86-basic/README.md) |
-| 3 | PE x86 - 0 protection | ✅ Validado y «Like» registrado | [writeup](challenges/cracking/pe-x86-0-protection/README.md) |
-| 4 | ELF C++ - 0 protection | ✅ Validado y «Like» registrado | [writeup](challenges/cracking/elf-cpp-0-protection/README.md) |
+| 1 | Bash - System 1 | ✅ Validado y documentado | [writeup](challenges/app-script/bash-system-1/README.md) |
 
-### Cryptanalysis
+### Cracking — orden del catálogo
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
-| 1 | Encoding - ASCII | ✅ Validado y «Like» registrado | [writeup](challenges/cryptanalysis/encoding-ascii/README.md) |
-| 2 | Encoding - UU | ✅ Validado y «Like» registrado | [writeup](challenges/cryptanalysis/encoding-uu/README.md) |
-| 3 | Hash - Message Digest 5 | ✅ Validado y «Like» registrado | [writeup](challenges/cryptanalysis/hash-md5/README.md) |
-| 4 | Hash - SHA-2 | ✅ Validado y «Like» registrado | [writeup](challenges/cryptanalysis/hash-sha-2/README.md) |
+| 1 | ELF x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-0-protection/README.md) |
+| 2 | ELF x86 - Basic | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-basic/README.md) |
+| 3 | PE x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/pe-x86-0-protection/README.md) |
+| 4 | ELF C++ - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-cpp-0-protection/README.md) |
 
-### Network
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | FTP - authentication | ✅ Validado y «Like» registrado | [writeup](challenges/network/ftp-authentication/README.md) |
-| 2 | TELNET - authentication | ✅ Validado y «Like» registrado | [writeup](challenges/network/telnet-authentication/README.md) |
-| 3 | ETHERNET - frame | ✅ Validado y «Like» registrado | [writeup](challenges/network/ethernet-frame/README.md) |
-| 4 | Twitter authentication | ✅ Validado y «Like» registrado | [writeup](challenges/network/twitter-authentication/README.md) |
-
-### Web - Client
+### Cryptanalysis — orden del catálogo
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
-| 1 | HTML - disabled buttons | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/html-disabled-buttons/README.md) |
-| 2 | Javascript - Authentication | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-authentication/README.md) |
-| 3 | Javascript - Source | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-source/README.md) |
-| 4 | Javascript - Authentication 2 | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-authentication-2/README.md) |
-| 5 | Javascript - Obfuscation 1 | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-obfuscation-1/README.md) |
-| 6 | Javascript - Obfuscation 2 | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-obfuscation-2/README.md) |
-| 7 | Javascript - Native code | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-native-code/README.md) |
-| 8 | Javascript - Obfuscation 3 | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
-| 9 | XSS - Stored 1 | ✅ Validado y «Like» registrado | [writeup](challenges/web-client/xss-stored-1/README.md) |
+| 1 | Encoding - ASCII | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-ascii/README.md) |
+| 2 | Encoding - UU | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-uu/README.md) |
+| 6 | Hash - Message Digest 5 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-md5/README.md) |
+| 8 | Hash - SHA-2 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-sha-2/README.md) |
 
-## Bitácora de revalidación
+### Network — orden del catálogo
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | FTP - authentication | ✅ Validado y documentado | [writeup](challenges/network/ftp-authentication/README.md) |
+| 2 | TELNET - authentication | ✅ Validado y documentado | [writeup](challenges/network/telnet-authentication/README.md) |
+| 3 | ETHERNET - frame | ✅ Validado y documentado | [writeup](challenges/network/ethernet-frame/README.md) |
+| 6 | Twitter authentication | ✅ Validado y documentado | [writeup](challenges/network/twitter-authentication/README.md) |
+
+### Web - Client — orden del catálogo
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | HTML - disabled buttons | ✅ Validado y documentado | [writeup](challenges/web-client/html-disabled-buttons/README.md) |
+| 2 | Javascript - Authentication | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-authentication/README.md) |
+| 3 | Javascript - Source | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-source/README.md) |
+| 4 | Javascript - Authentication 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-authentication-2/README.md) |
+| 5 | Javascript - Obfuscation 1 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-1/README.md) |
+| 6 | Javascript - Obfuscation 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-2/README.md) |
+| 7 | Javascript - Native code | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-native-code/README.md) |
+| 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
+| 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
+
+## Bitácora de validación y documentación
 
 | Fecha | Reto | Resultado | Writeup |
 |---|---|---|---|
@@ -241,6 +241,6 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 
 ## Criterio de registro
 
-- Un writeup cuenta como documentado cuando explica el reto de forma reproducible y no incluye flags ni credenciales. Desde el reto 44, las validaciones nuevas se resuelven en el orden del catálogo y se registran también en Root-Me.
+- Un writeup cuenta como documentado cuando explica el reto de forma reproducible y no incluye flags ni credenciales. Las validaciones nuevas se resuelven en el orden del catálogo y se registran también en Root-Me.
 - Las cantidades del catálogo y las validaciones de la cuenta se obtienen desde [Root-Me Challenges](https://www.root-me.org/en/Challenges/) en inglés, que es la fuente de verdad de este seguimiento.
 - Los retos que ya aparezcan resueltos en la cuenta se registrarán por separado de los writeups pendientes, para no confundir progreso en plataforma con documentación local.
