@@ -31,7 +31,73 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 | Web - Server | 28 | **7** del [orden activo](#web---server--orden-activo-de-resolución) + **21** [históricos](#web---server--validaciones-históricas-ya-documentadas) |
 | **Total** | **50** | **1 + 4 + 4 + 4 + 9 + 28** |
 
-## Web - Server — catálogo y resolución en orden de aparición
+## Categorías — retos validados y documentados
+
+Las categorías y sus retos se presentan en el mismo orden del catálogo de Root-Me. Un reto verde siempre significa `✅ Validado y documentado`.
+
+### App - Script
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | Bash - System 1 | ✅ Validado y documentado | [writeup](challenges/app-script/bash-system-1/README.md) |
+### App - System
+
+Aún no hay retos validados y documentados en esta categoría.
+
+### Cracking
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | ELF x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-0-protection/README.md) |
+| 2 | ELF x86 - Basic | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-basic/README.md) |
+| 3 | PE x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/pe-x86-0-protection/README.md) |
+| 4 | ELF C++ - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-cpp-0-protection/README.md) |
+### Cryptanalysis
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | Encoding - ASCII | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-ascii/README.md) |
+| 2 | Encoding - UU | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-uu/README.md) |
+| 6 | Hash - Message Digest 5 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-md5/README.md) |
+| 8 | Hash - SHA-2 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-sha-2/README.md) |
+### Forensic
+
+Aún no hay retos validados y documentados en esta categoría.
+
+### Network
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | FTP - authentication | ✅ Validado y documentado | [writeup](challenges/network/ftp-authentication/README.md) |
+| 2 | TELNET - authentication | ✅ Validado y documentado | [writeup](challenges/network/telnet-authentication/README.md) |
+| 3 | ETHERNET - frame | ✅ Validado y documentado | [writeup](challenges/network/ethernet-frame/README.md) |
+| 6 | Twitter authentication | ✅ Validado y documentado | [writeup](challenges/network/twitter-authentication/README.md) |
+### Programming
+
+Aún no hay retos validados y documentados en esta categoría.
+
+### Realist
+
+Aún no hay retos validados y documentados en esta categoría.
+
+### Steganography
+
+Aún no hay retos validados y documentados en esta categoría.
+
+### Web - Client
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | HTML - disabled buttons | ✅ Validado y documentado | [writeup](challenges/web-client/html-disabled-buttons/README.md) |
+| 2 | Javascript - Authentication | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-authentication/README.md) |
+| 3 | Javascript - Source | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-source/README.md) |
+| 4 | Javascript - Authentication 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-authentication-2/README.md) |
+| 5 | Javascript - Obfuscation 1 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-1/README.md) |
+| 6 | Javascript - Obfuscation 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-2/README.md) |
+| 7 | Javascript - Native code | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-native-code/README.md) |
+| 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
+| 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
+### Web - Server
 
 Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los **28** retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
 
@@ -134,55 +200,6 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 95 | Python - Blind SSTI Filters Bypass | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/Python-Blind-SSTI-Filters-Bypass) |
 | 96 | XPath injection - Blind | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/XPath-injection-Blind) |
 | 97 | SQL injection - Filter bypass | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/SQL-injection-Filter-bypass) |
-
-## Otras categorías — retos validados y documentados
-
-### App - Script — orden del catálogo
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | Bash - System 1 | ✅ Validado y documentado | [writeup](challenges/app-script/bash-system-1/README.md) |
-
-### Cracking — orden del catálogo
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | ELF x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-0-protection/README.md) |
-| 2 | ELF x86 - Basic | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-basic/README.md) |
-| 3 | PE x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/pe-x86-0-protection/README.md) |
-| 4 | ELF C++ - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-cpp-0-protection/README.md) |
-
-### Cryptanalysis — orden del catálogo
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | Encoding - ASCII | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-ascii/README.md) |
-| 2 | Encoding - UU | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-uu/README.md) |
-| 6 | Hash - Message Digest 5 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-md5/README.md) |
-| 8 | Hash - SHA-2 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-sha-2/README.md) |
-
-### Network — orden del catálogo
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | FTP - authentication | ✅ Validado y documentado | [writeup](challenges/network/ftp-authentication/README.md) |
-| 2 | TELNET - authentication | ✅ Validado y documentado | [writeup](challenges/network/telnet-authentication/README.md) |
-| 3 | ETHERNET - frame | ✅ Validado y documentado | [writeup](challenges/network/ethernet-frame/README.md) |
-| 6 | Twitter authentication | ✅ Validado y documentado | [writeup](challenges/network/twitter-authentication/README.md) |
-
-### Web - Client — orden del catálogo
-
-| # | Reto | Estado | Writeup |
-|---:|---|---|---|
-| 1 | HTML - disabled buttons | ✅ Validado y documentado | [writeup](challenges/web-client/html-disabled-buttons/README.md) |
-| 2 | Javascript - Authentication | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-authentication/README.md) |
-| 3 | Javascript - Source | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-source/README.md) |
-| 4 | Javascript - Authentication 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-authentication-2/README.md) |
-| 5 | Javascript - Obfuscation 1 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-1/README.md) |
-| 6 | Javascript - Obfuscation 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-2/README.md) |
-| 7 | Javascript - Native code | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-native-code/README.md) |
-| 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
-| 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
 
 ## Bitácora de validación y documentación
 
