@@ -34,6 +34,16 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 9 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
 | 10 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
 
+| 11 | JWT - Revoked token | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-revoked-token/README.md) |
+| 12 | JWT - Weak secret | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-weak-secret/README.md) |
+| 13 | JWT - Unsecure File Signature | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-file-signature/README.md) |
+| 14 | PHP - Apache configuration | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-apache-configuration/README.md) |
+| 15 | PHP - preg_replace() | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-preg-replace/README.md) |
+| 16 | PHP - type juggling | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-type-juggling/README.md) |
+| 17 | Remote File Inclusion | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/remote-file-inclusion/README.md) |
+| 18 | Ruby on Rails - ransack | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/ruby-on-rails-ransack/README.md) |
+| 19 | SQL injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication/README.md) |
+| 20 | SQL injection - Authentication - GBK | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication-gbk/README.md) |
 ## Bitácora de revalidación
 
 | Fecha | Reto | Resultado | Writeup |
