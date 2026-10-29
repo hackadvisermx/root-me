@@ -63,6 +63,16 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 38 | GraphQL - Mutation | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-mutation/README.md) |
 | 39 | Java - Spring Boot | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/java-spring-boot/README.md) |
 | 40 | Local File Inclusion - Wrappers | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/local-file-inclusion-wrappers/README.md) |
+| 41 | PHP - Eval | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-eval/README.md) |
+| 42 | PHP - Eval - Advanced filters bypass | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-eval-advanced-filters-bypass/README.md) |
+| 43 | SQL injection - Error | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-error/README.md) |
+| 44 | SQL injection - Insert | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-insert/README.md) |
+| 45 | SQL injection - File reading | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-file-reading/README.md) |
+| 46 | XPath injection - String | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/xpath-injection-string/README.md) |
+| 47 | File upload - Polyglot | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/file-upload-polyglot/README.md) |
+| 48 | NodeJS - Prototype Pollution Bypass | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/nodejs-prototype-pollution-bypass/README.md) |
+| 49 | NoSQL injection - blind | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/nosql-injection-blind/README.md) |
+| 50 | SQL injection - Time based | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-time-based/README.md) |
 
 ## Bitácora de revalidación
 
