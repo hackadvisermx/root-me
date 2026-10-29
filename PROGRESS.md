@@ -14,8 +14,25 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
-| Web - Server | 97 | 21 | 21 | ✅ Documentación retroactiva completa |
-| **Total** | **558** | **43** | **43** | **✅ Documentación retroactiva completa** |
+| Web - Server | 97 | 27 | 27 | 🚧 Ampliación en orden de catálogo |
+| **Total** | **558** | **49** | **49** | **🚧 Ampliación en curso** |
+
+## Web - Server — orden activo de resolución
+
+La ampliación comenzó con el primer reto marcado con X en el catálogo de Web Server. La numeración sigue el orden visual actual de ese catálogo; cada fila se actualizará antes de iniciar la siguiente.
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| 1 | HTTP - IP restriction bypass | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/http-ip-restriction-bypass/README.md) |
+| 2 | API - Broken Access | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/api-broken-access/README.md) |
+| 3 | Nginx - Alias Misconfiguration | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/nginx-alias-misconfiguration/README.md) |
+| 4 | Nginx - Root Location Misconfiguration | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/nginx-root-location-misconfiguration/README.md) |
+| 5 | API - Mass Assignment | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/api-mass-assignment/README.md) |
+| 6 | Flask - Unsecure session | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/flask-unsecure-session/README.md) |
+| 7 | GraphQL - Introspection | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-introspection/README.md) |
+| 8 | Insecure Code Management | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/insecure-code-management/README.md) |
+| 9 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
+| 10 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
 
 ## Bitácora de revalidación
 
