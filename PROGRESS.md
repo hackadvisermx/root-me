@@ -14,12 +14,26 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
-| Web - Server | 97 | 27 | 27 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **49** | **49** | **🚧 Ampliación en curso** |
+| Web - Server | 97 | 28 | 28 | 🚧 Ampliación en orden de catálogo |
+| **Total** | **558** | **50** | **50** | **🚧 Ampliación en curso** |
+
+## Desglose de revalidados y documentados
+
+Los números de esta sección son el detalle trazable del concentrado superior. Los retos verdes del orden activo de Web Server son sólo la ampliación actual; sus validaciones históricas se listan más abajo.
+
+| Categoría | Revalidados y documentados | Desglose |
+|---|---:|---|
+| App - Script | 1 | [Bash - System 1](challenges/app-script/bash-system-1/README.md) |
+| Cracking | 4 | [ELF x86 - 0 protection](challenges/cracking/elf-x86-0-protection/README.md), [ELF x86 - Basic](challenges/cracking/elf-x86-basic/README.md), [PE x86 - 0 protection](challenges/cracking/pe-x86-0-protection/README.md), [ELF C++ - 0 protection](challenges/cracking/elf-cpp-0-protection/README.md) |
+| Cryptanalysis | 4 | [Encoding - ASCII](challenges/cryptanalysis/encoding-ascii/README.md), [Encoding - UU](challenges/cryptanalysis/encoding-uu/README.md), [Hash - MD5](challenges/cryptanalysis/hash-md5/README.md), [Hash - SHA-2](challenges/cryptanalysis/hash-sha-2/README.md) |
+| Network | 4 | [FTP - authentication](challenges/network/ftp-authentication/README.md), [TELNET - authentication](challenges/network/telnet-authentication/README.md), [ETHERNET - frame](challenges/network/ethernet-frame/README.md), [Twitter authentication](challenges/network/twitter-authentication/README.md) |
+| Web - Client | 9 | [HTML - disabled buttons](challenges/web-client/html-disabled-buttons/README.md), [Javascript - Authentication](challenges/web-client/javascript-authentication/README.md), [Javascript - Source](challenges/web-client/javascript-source/README.md), [Javascript - Authentication 2](challenges/web-client/javascript-authentication-2/README.md), [Javascript - Obfuscation 1](challenges/web-client/javascript-obfuscation-1/README.md), [Javascript - Obfuscation 2](challenges/web-client/javascript-obfuscation-2/README.md), [Javascript - Native code](challenges/web-client/javascript-native-code/README.md), [Javascript - Obfuscation 3](challenges/web-client/javascript-obfuscation-3/README.md), [XSS - Stored 1](challenges/web-client/xss-stored-1/README.md) |
+| Web - Server | 28 | **7** del [orden activo](#web---server--orden-activo-de-resolución) + **21** [históricos](#web---server--validaciones-históricas-ya-documentadas) |
+| **Total** | **50** | **1 + 4 + 4 + 4 + 9 + 28** |
 
 ## Web - Server — orden activo de resolución
 
-La ampliación comenzó con el primer reto marcado con X en el catálogo de Web Server. La numeración sigue el orden visual actual de ese catálogo; cada fila se actualizará antes de iniciar la siguiente.
+La ampliación comenzó con el primer reto marcado con X en el catálogo de Web Server. La numeración sigue el orden visual actual de ese catálogo; cada fila se actualizará antes de iniciar la siguiente. Actualmente hay **7** verdes en este bloque; las **21** validaciones históricas que completan el total de 28 se muestran en la sección posterior.
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -29,7 +43,7 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 4 | Nginx - Root Location Misconfiguration | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/nginx-root-location-misconfiguration/README.md) |
 | 5 | API - Mass Assignment | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/api-mass-assignment/README.md) |
 | 6 | Flask - Unsecure session | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/flask-unsecure-session/README.md) |
-| 7 | GraphQL - Introspection | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-introspection/README.md) |
+| 7 | GraphQL - Introspection | ✅ Validado; palomita y «Like» confirmados | [writeup](challenges/web-server/graphql-introspection/README.md) |
 | 8 | Insecure Code Management | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/insecure-code-management/README.md) |
 | 9 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
 | 10 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
@@ -73,6 +87,34 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 48 | NodeJS - Prototype Pollution Bypass | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/nodejs-prototype-pollution-bypass/README.md) |
 | 49 | NoSQL injection - blind | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/nosql-injection-blind/README.md) |
 | 50 | SQL injection - Time based | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-time-based/README.md) |
+
+## Web - Server — validaciones históricas ya documentadas
+
+Estas validaciones se realizaron antes de comenzar el orden activo anterior. Por ello no forman parte de la numeración 1–50, pero sí explican el total de **28** validaciones de Web Server: **21 históricas + 7 del orden activo**.
+
+| # | Reto | Estado | Writeup |
+|---:|---|---|---|
+| H1 | HTML - Source code | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/html-source-code/README.md) |
+| H2 | HTTP - Open redirect | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-open-redirect/README.md) |
+| H3 | HTTP - User-agent | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-user-agent/README.md) |
+| H4 | Weak password | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/weak-password/README.md) |
+| H5 | PHP - Command injection | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-command-injection/README.md) |
+| H6 | Backup file | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/backup-file/README.md) |
+| H7 | HTTP - Directory indexing | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-directory-indexing/README.md) |
+| H8 | HTTP - Headers | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-headers/README.md) |
+| H9 | HTTP POST | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-post/README.md) |
+| H10 | HTTP - Improper redirect | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-improper-redirect/README.md) |
+| H11 | HTTP - Verb tampering | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-verb-tampering/README.md) |
+| H12 | Install files | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/install-files/README.md) |
+| H13 | CRLF | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/crlf/README.md) |
+| H14 | File upload - Double extensions | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/file-upload-double-extensions/README.md) |
+| H15 | File upload - MIME type | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/file-upload-mime-type/README.md) |
+| H16 | HTTP - Cookies | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/http-cookies/README.md) |
+| H17 | Directory traversal | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/directory-traversal/README.md) |
+| H18 | File upload - Null byte | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/file-upload-null-byte/README.md) |
+| H19 | PHP - assert() | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-assert/README.md) |
+| H20 | PHP - Filters | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-filters/README.md) |
+| H21 | PHP - register globals | ✅ Validado y «Like» registrado | [writeup](challenges/web-server/php-register-globals/README.md) |
 
 ## Bitácora de revalidación
 
@@ -127,6 +169,7 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 2026-10-28 | Nginx - Root Location Misconfiguration | Resuelto y validado al leer configuración Nginx expuesta por el `root` global; la palomita y el «Like» fueron confirmados. | [web-server/nginx-root-location-misconfiguration](challenges/web-server/nginx-root-location-misconfiguration/README.md) |
 | 2026-10-28 | API - Mass Assignment | Resuelto y validado al elevar el rol con una propiedad no permitida por el flujo normal; la palomita y el «Like» fueron confirmados. | [web-server/api-mass-assignment](challenges/web-server/api-mass-assignment/README.md) |
 | 2026-10-28 | Flask - Unsecure session | Resuelto y validado al forjar una sesión Flask administrativa firmada con clave débil; la palomita y el «Like» fueron confirmados. | [web-server/flask-unsecure-session](challenges/web-server/flask-unsecure-session/README.md) |
+| 2026-10-29 | GraphQL - Introspection | Resuelto mediante introspección del esquema GraphQL; la palomita y el «Like» fueron confirmados. | [web-server/graphql-introspection](challenges/web-server/graphql-introspection/README.md) |
 
 ## Criterio de registro
 
