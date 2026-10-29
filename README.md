@@ -8,7 +8,7 @@ Writeups propios de los desafíos de [Root-Me](https://www.root-me.org/es/Desafi
 
 ## Estado actual
 
-La interfaz en inglés de Root-Me, revisada el **2026-10-29**, muestra **558 retos** en las once categorías. La cuenta `hackadvisermx` tiene **54 retos validados (9.7%)**. Los retos validados y documentados se amplían en orden de catálogo: **54/54** writeups validados están registrados y hay treinta y nueve procedimientos adicionales pendientes de su validación autenticada.
+La interfaz en inglés de Root-Me, revisada el **2026-10-29**, muestra **558 retos** en las once categorías. La cuenta `hackadvisermx` tiene **64 retos validados (11.5%)**. Los retos validados y documentados se amplían en orden de catálogo: **64/64** writeups validados están registrados y hay treinta y un procedimientos adicionales pendientes de su validación autenticada.
 
 El detalle por categoría y el orden de cada reto viven en [PROGRESS.md](PROGRESS.md). Un reto solo cuenta cuando la validación en plataforma y su writeup, sin la flag, están confirmados.
 

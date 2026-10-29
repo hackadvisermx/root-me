@@ -3,7 +3,7 @@
 ## Descripción
 
 - **Puntos:** 30
-- **Reto:** [Root-Me — PHP - preg_replace()](https://www.root-me.org/en/Challenges/Web-Server/PHP-preg-replace)
+- **Reto:** [Root-Me — PHP - preg_replace()](https://www.root-me.org/en/Challenges/Web-Server/PHP-preg_replace)
 
 El patrón regular controlado por el usuario permite activar el modificador heredado `/e` de `preg_replace`. En versiones vulnerables, dicho modificador evalúa el reemplazo como PHP cuando el patrón coincide.
 

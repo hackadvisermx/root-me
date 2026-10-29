@@ -13,9 +13,9 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-29**. E
 | Programming | 29 | 0 | 0 | ⏳ Sin validaciones previas |
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
-| Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
-| Web - Server | 97 | 32 | 32 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **54** | **54** | **🚧 Ampliación en curso** |
+| Web - Client | 42 | 11 | 11 | 🚧 Ampliación en orden de catálogo |
+| Web - Server | 97 | 40 | 40 | 🚧 Ampliación en orden de catálogo |
+| **Total** | **558** | **64** | **64** | **🚧 Ampliación en curso** |
 
 ## Desglose de validados y documentados
 
@@ -32,9 +32,9 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 | Programming | 0 | Sin retos validados y documentados |
 | Realist | 0 | Sin retos validados y documentados |
 | Steganography | 0 | Sin retos validados y documentados |
-| Web - Client | 9 | Listado completo abajo |
-| Web - Server | 32 | Listado completo abajo |
-| **Total** | **54** | **1 + 4 + 4 + 4 + 9 + 32** |
+| Web - Client | 11 | Listado completo abajo |
+| Web - Server | 40 | Listado completo abajo |
+| **Total** | **64** | **1 + 4 + 4 + 4 + 11 + 40** |
 
 ## Categorías — retos validados y documentados
 
@@ -89,7 +89,7 @@ Aún no hay retos validados y documentados en esta categoría.
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Web - Client — 9 de 42 resueltos (21.4%)
+### Web - Client — 11 de 42 resueltos (26.2%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -100,9 +100,11 @@ Aún no hay retos validados y documentados en esta categoría.
 | 5 | Javascript - Obfuscation 1 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-1/README.md) |
 | 6 | Javascript - Obfuscation 2 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-2/README.md) |
 | 7 | Javascript - Native code | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-native-code/README.md) |
+| 8 | Javascript - Webpack | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-webpack/README.md) |
 | 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
 | 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
-### Web - Server — 32 de 97 resueltos (33.0%)
+| 11 | AST - Deobfuscation | ✅ Validado y documentado | [writeup](challenges/web-client/ast-deobfuscation/README.md) |
+### Web - Server — 40 de 97 resueltos (41.2%)
 
 Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
 
@@ -137,10 +139,10 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 27 | Directory traversal | ✅ Validado y documentado | [writeup](challenges/web-server/directory-traversal/README.md) |
 | 28 | File upload - Null byte | ✅ Validado y documentado | [writeup](challenges/web-server/file-upload-null-byte/README.md) |
 | 29 | JWT - Revoked token | ✅ Validado y documentado | [writeup](challenges/web-server/jwt-revoked-token/README.md) |
-| 30 | JWT - Weak secret | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-weak-secret/README.md) |
-| 31 | JWT - Unsecure File Signature | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-file-signature/README.md) |
+| 30 | JWT - Weak secret | ✅ Validado y documentado | [writeup](challenges/web-server/jwt-weak-secret/README.md) |
+| 31 | JWT - Unsecure File Signature | ✅ Validado y documentado | [writeup](challenges/web-server/jwt-unsecure-file-signature/README.md) |
 | 32 | PHP - assert() | ✅ Validado y documentado | [writeup](challenges/web-server/php-assert/README.md) |
-| 33 | PHP - Apache configuration | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-apache-configuration/README.md) |
+| 33 | PHP - Apache configuration | ✅ Validado y documentado | [writeup](challenges/web-server/php-apache-configuration/README.md) |
 | 34 | PHP - Filters | ✅ Validado y documentado | [writeup](challenges/web-server/php-filters/README.md) |
 | 35 | PHP - register globals | ✅ Validado y documentado | [writeup](challenges/web-server/php-register-globals/README.md) |
 | 36 | PHP - Remote Xdebug | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/PHP-Remote-Xdebug) |
@@ -157,11 +159,11 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 47 | Nginx - SSRF Misconfiguration | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/Nginx-SSRF-Misconfiguration) |
 | 48 | Node - Eval | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/Node-Eval) |
 | 49 | PHP - Loose Comparison | ⚪ Sin documentación; pendiente de resolución | [reto oficial](https://www.root-me.org/en/Challenges/Web-Server/PHP-Loose-Comparison) |
-| 50 | PHP - preg_replace() | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-preg-replace/README.md) |
-| 51 | PHP - type juggling | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-type-juggling/README.md) |
-| 52 | Remote File Inclusion | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/remote-file-inclusion/README.md) |
-| 53 | Ruby on Rails - ransack | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/ruby-on-rails-ransack/README.md) |
-| 54 | SQL injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication/README.md) |
+| 50 | PHP - preg_replace() | ✅ Validado y documentado | [writeup](challenges/web-server/php-preg-replace/README.md) |
+| 51 | PHP - type juggling | ✅ Validado y documentado | [writeup](challenges/web-server/php-type-juggling/README.md) |
+| 52 | Remote File Inclusion | ✅ Validado y documentado | [writeup](challenges/web-server/remote-file-inclusion/README.md) |
+| 53 | Ruby on Rails - ransack | ✅ Validado y documentado | [writeup](challenges/web-server/ruby-on-rails-ransack/README.md) |
+| 54 | SQL injection - Authentication | ✅ Validado y documentado | [writeup](challenges/web-server/sql-injection-authentication/README.md) |
 | 55 | SQL injection - Authentication - GBK | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication-gbk/README.md) |
 | 56 | SQL injection - String | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-string/README.md) |
 | 57 | XSLT - Code execution | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/xslt-code-execution/README.md) |
@@ -264,6 +266,16 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 2026-10-29 | JWT - Introduction | Resuelto con un token sin firma aceptado por la instancia; la palomita y el «Like» fueron confirmados. | [web-server/jwt-introduction](challenges/web-server/jwt-introduction/README.md) |
 | 2026-10-29 | XSS - Server Side | Resuelto mediante inclusión de archivo local en el PDF generado; la palomita y el «Like» fueron confirmados. | [web-server/xss-server-side](challenges/web-server/xss-server-side/README.md) |
 | 2026-10-29 | JWT - Revoked token | Resuelto al usar una representación Base64URL alternativa de un token revocado; la palomita y el «Like» fueron confirmados. | [web-server/jwt-revoked-token](challenges/web-server/jwt-revoked-token/README.md) |
+| 2026-10-29 | JWT - Weak secret | Resuelto al firmar el token administrativo con la clave HMAC débil recuperada de la instancia; la palomita y el «Like» fueron confirmados. | [web-server/jwt-weak-secret](challenges/web-server/jwt-weak-secret/README.md) |
+| 2026-10-29 | JWT - Unsecure File Signature | Resuelto al controlar el selector de clave del encabezado JWT y usar un recurso público como material HMAC; la palomita y el «Like» fueron confirmados. | [web-server/jwt-unsecure-file-signature](challenges/web-server/jwt-unsecure-file-signature/README.md) |
+| 2026-10-29 | PHP - Apache configuration | Resuelto al habilitar PHP de forma local mediante `.htaccess` y ejecutar un archivo sin extensión; la palomita y el «Like» fueron confirmados. | [web-server/php-apache-configuration](challenges/web-server/php-apache-configuration/README.md) |
+| 2026-10-29 | PHP - preg_replace() | Resuelto al activar el modificador heredado de evaluación de `preg_replace` para leer el recurso de la instancia; la palomita y el «Like» fueron confirmados. | [web-server/php-preg-replace](challenges/web-server/php-preg-replace/README.md) |
+| 2026-10-29 | PHP - type juggling | Resuelto al enviar tipos JSON no esperados para aprovechar comparaciones no estrictas; la palomita y el «Like» fueron confirmados. | [web-server/php-type-juggling](challenges/web-server/php-type-juggling/README.md) |
+| 2026-10-29 | Remote File Inclusion | Resuelto al incluir contenido controlado mediante un `data://` URI y recuperar la fuente de la instancia; la palomita y el «Like» fueron confirmados. | [web-server/remote-file-inclusion](challenges/web-server/remote-file-inclusion/README.md) |
+| 2026-10-29 | Ruby on Rails - ransack | Resuelto al reconstruir un digest mediante el oráculo de búsqueda y verificarlo localmente; la palomita y el «Like» fueron confirmados. | [web-server/ruby-on-rails-ransack](challenges/web-server/ruby-on-rails-ransack/README.md) |
+| 2026-10-29 | SQL injection - Authentication | Resuelto al cerrar la cadena de usuario y comentar la condición de contraseña; la palomita y el «Like» fueron confirmados. | [web-server/sql-injection-authentication](challenges/web-server/sql-injection-authentication/README.md) |
+| 2026-10-29 | Javascript - Webpack | Resuelto al revisar el bundle y sus referencias de mapa de fuente; la palomita y el «Like» fueron confirmados. | [web-client/javascript-webpack](challenges/web-client/javascript-webpack/README.md) |
+| 2026-10-29 | AST - Deobfuscation | Resuelto al sanear el AST y regenerar el código resultante; la palomita y el «Like» fueron confirmados. | [web-client/ast-deobfuscation](challenges/web-client/ast-deobfuscation/README.md) |
 
 ## Criterio de registro
 
