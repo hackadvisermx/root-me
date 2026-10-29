@@ -1,6 +1,6 @@
 # Progreso — Root-Me
 
-Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. Se diferencia el avance de la cuenta en plataforma de los writeups que ya fueron reproducidos y publicados en este repositorio.
+Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-29**. Este registro reúne los retos cuya validación en plataforma y documentación en el repositorio están confirmadas.
 
 | Categoría | Catálogo | Validados en plataforma | Validados y documentados | Estado |
 |---|---:|---:|---:|---|
@@ -14,8 +14,8 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
-| Web - Server | 97 | 29 | 29 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **51** | **51** | **🚧 Ampliación en curso** |
+| Web - Server | 97 | 32 | 32 | 🚧 Ampliación en orden de catálogo |
+| **Total** | **558** | **54** | **54** | **🚧 Ampliación en curso** |
 
 ## Desglose de validados y documentados
 
@@ -23,13 +23,18 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 
 | Categoría | Validados y documentados | Desglose |
 |---|---:|---|
-| App - Script | 1 | [Bash - System 1](challenges/app-script/bash-system-1/README.md) |
-| Cracking | 4 | [ELF x86 - 0 protection](challenges/cracking/elf-x86-0-protection/README.md), [ELF x86 - Basic](challenges/cracking/elf-x86-basic/README.md), [PE x86 - 0 protection](challenges/cracking/pe-x86-0-protection/README.md), [ELF C++ - 0 protection](challenges/cracking/elf-cpp-0-protection/README.md) |
-| Cryptanalysis | 4 | [Encoding - ASCII](challenges/cryptanalysis/encoding-ascii/README.md), [Encoding - UU](challenges/cryptanalysis/encoding-uu/README.md), [Hash - MD5](challenges/cryptanalysis/hash-md5/README.md), [Hash - SHA-2](challenges/cryptanalysis/hash-sha-2/README.md) |
-| Network | 4 | [FTP - authentication](challenges/network/ftp-authentication/README.md), [TELNET - authentication](challenges/network/telnet-authentication/README.md), [ETHERNET - frame](challenges/network/ethernet-frame/README.md), [Twitter authentication](challenges/network/twitter-authentication/README.md) |
-| Web - Client | 9 | [HTML - disabled buttons](challenges/web-client/html-disabled-buttons/README.md), [Javascript - Authentication](challenges/web-client/javascript-authentication/README.md), [Javascript - Source](challenges/web-client/javascript-source/README.md), [Javascript - Authentication 2](challenges/web-client/javascript-authentication-2/README.md), [Javascript - Obfuscation 1](challenges/web-client/javascript-obfuscation-1/README.md), [Javascript - Obfuscation 2](challenges/web-client/javascript-obfuscation-2/README.md), [Javascript - Native code](challenges/web-client/javascript-native-code/README.md), [Javascript - Obfuscation 3](challenges/web-client/javascript-obfuscation-3/README.md), [XSS - Stored 1](challenges/web-client/xss-stored-1/README.md) |
-| Web - Server | 28 | **7** del [orden activo](#web---server--orden-activo-de-resolución) + **21** [históricos](#web---server--validaciones-históricas-ya-documentadas) |
-| **Total** | **50** | **1 + 4 + 4 + 4 + 9 + 28** |
+| App - Script | 1 | Listado completo abajo |
+| App - System | 0 | Sin retos validados y documentados |
+| Cracking | 4 | Listado completo abajo |
+| Cryptanalysis | 4 | Listado completo abajo |
+| Forensic | 0 | Sin retos validados y documentados |
+| Network | 4 | Listado completo abajo |
+| Programming | 0 | Sin retos validados y documentados |
+| Realist | 0 | Sin retos validados y documentados |
+| Steganography | 0 | Sin retos validados y documentados |
+| Web - Client | 9 | Listado completo abajo |
+| Web - Server | 32 | Listado completo abajo |
+| **Total** | **54** | **1 + 4 + 4 + 4 + 9 + 32** |
 
 ## Categorías — retos validados y documentados
 
@@ -97,9 +102,9 @@ Aún no hay retos validados y documentados en esta categoría.
 | 7 | Javascript - Native code | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-native-code/README.md) |
 | 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
 | 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
-### Web - Server — 29 de 97 resueltos (29.9%)
+### Web - Server — 32 de 97 resueltos (33.0%)
 
-Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los **28** retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
+Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
 
 | # catálogo | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -127,11 +132,11 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 22 | GraphQL - Introspection | ✅ Validado y documentado | [writeup](challenges/web-server/graphql-introspection/README.md) |
 | 23 | HTTP - Cookies | ✅ Validado y documentado | [writeup](challenges/web-server/http-cookies/README.md) |
 | 24 | Insecure Code Management | ✅ Validado y documentado | [writeup](challenges/web-server/insecure-code-management/README.md) |
-| 25 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
-| 26 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
+| 25 | JWT - Introduction | ✅ Validado y documentado | [writeup](challenges/web-server/jwt-introduction/README.md) |
+| 26 | XSS - Server Side | ✅ Validado y documentado | [writeup](challenges/web-server/xss-server-side/README.md) |
 | 27 | Directory traversal | ✅ Validado y documentado | [writeup](challenges/web-server/directory-traversal/README.md) |
 | 28 | File upload - Null byte | ✅ Validado y documentado | [writeup](challenges/web-server/file-upload-null-byte/README.md) |
-| 29 | JWT - Revoked token | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-revoked-token/README.md) |
+| 29 | JWT - Revoked token | ✅ Validado y documentado | [writeup](challenges/web-server/jwt-revoked-token/README.md) |
 | 30 | JWT - Weak secret | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-weak-secret/README.md) |
 | 31 | JWT - Unsecure File Signature | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-file-signature/README.md) |
 | 32 | PHP - assert() | ✅ Validado y documentado | [writeup](challenges/web-server/php-assert/README.md) |
@@ -256,6 +261,9 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 2026-10-28 | Flask - Unsecure session | Resuelto y validado al forjar una sesión Flask administrativa firmada con clave débil; la palomita y el «Like» fueron confirmados. | [web-server/flask-unsecure-session](challenges/web-server/flask-unsecure-session/README.md) |
 | 2026-10-29 | GraphQL - Introspection | Resuelto mediante introspección del esquema GraphQL; la palomita y el «Like» fueron confirmados. | [web-server/graphql-introspection](challenges/web-server/graphql-introspection/README.md) |
 | 2026-10-29 | Insecure Code Management | Resuelto al recuperar la versión histórica que contenía la contraseña; la palomita y el «Like» fueron confirmados. | [web-server/insecure-code-management](challenges/web-server/insecure-code-management/README.md) |
+| 2026-10-29 | JWT - Introduction | Resuelto con un token sin firma aceptado por la instancia; la palomita y el «Like» fueron confirmados. | [web-server/jwt-introduction](challenges/web-server/jwt-introduction/README.md) |
+| 2026-10-29 | XSS - Server Side | Resuelto mediante inclusión de archivo local en el PDF generado; la palomita y el «Like» fueron confirmados. | [web-server/xss-server-side](challenges/web-server/xss-server-side/README.md) |
+| 2026-10-29 | JWT - Revoked token | Resuelto al usar una representación Base64URL alternativa de un token revocado; la palomita y el «Like» fueron confirmados. | [web-server/jwt-revoked-token](challenges/web-server/jwt-revoked-token/README.md) |
 
 ## Criterio de registro
 
