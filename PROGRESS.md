@@ -14,8 +14,8 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-28**. S
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 9 | 9 | ✅ Documentación retroactiva completa |
-| Web - Server | 97 | 28 | 28 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **50** | **50** | **🚧 Ampliación en curso** |
+| Web - Server | 97 | 29 | 29 | 🚧 Ampliación en orden de catálogo |
+| **Total** | **558** | **51** | **51** | **🚧 Ampliación en curso** |
 
 ## Desglose de validados y documentados
 
@@ -35,16 +35,16 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 
 Las categorías y sus retos se presentan en el mismo orden del catálogo de Root-Me. Un reto verde siempre significa `✅ Validado y documentado`.
 
-### App - Script
+### App - Script — 1 de 33 resueltos (3.0%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
 | 1 | Bash - System 1 | ✅ Validado y documentado | [writeup](challenges/app-script/bash-system-1/README.md) |
-### App - System
+### App - System — 0 de 43 resueltos (0.0%)
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Cracking
+### Cracking — 4 de 70 resueltos (5.7%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -52,7 +52,7 @@ Aún no hay retos validados y documentados en esta categoría.
 | 2 | ELF x86 - Basic | ✅ Validado y documentado | [writeup](challenges/cracking/elf-x86-basic/README.md) |
 | 3 | PE x86 - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/pe-x86-0-protection/README.md) |
 | 4 | ELF C++ - 0 protection | ✅ Validado y documentado | [writeup](challenges/cracking/elf-cpp-0-protection/README.md) |
-### Cryptanalysis
+### Cryptanalysis — 4 de 75 resueltos (5.3%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -60,11 +60,11 @@ Aún no hay retos validados y documentados en esta categoría.
 | 2 | Encoding - UU | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/encoding-uu/README.md) |
 | 6 | Hash - Message Digest 5 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-md5/README.md) |
 | 8 | Hash - SHA-2 | ✅ Validado y documentado | [writeup](challenges/cryptanalysis/hash-sha-2/README.md) |
-### Forensic
+### Forensic — 0 de 48 resueltos (0.0%)
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Network
+### Network — 4 de 35 resueltos (11.4%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -72,19 +72,19 @@ Aún no hay retos validados y documentados en esta categoría.
 | 2 | TELNET - authentication | ✅ Validado y documentado | [writeup](challenges/network/telnet-authentication/README.md) |
 | 3 | ETHERNET - frame | ✅ Validado y documentado | [writeup](challenges/network/ethernet-frame/README.md) |
 | 6 | Twitter authentication | ✅ Validado y documentado | [writeup](challenges/network/twitter-authentication/README.md) |
-### Programming
+### Programming — 0 de 29 resueltos (0.0%)
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Realist
+### Realist — 0 de 62 resueltos (0.0%)
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Steganography
+### Steganography — 0 de 24 resueltos (0.0%)
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Web - Client
+### Web - Client — 9 de 42 resueltos (21.4%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -97,7 +97,7 @@ Aún no hay retos validados y documentados en esta categoría.
 | 7 | Javascript - Native code | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-native-code/README.md) |
 | 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
 | 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
-### Web - Server
+### Web - Server — 29 de 97 resueltos (29.9%)
 
 Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los **28** retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
 
@@ -126,7 +126,7 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 21 | Flask - Unsecure session | ✅ Validado y documentado | [writeup](challenges/web-server/flask-unsecure-session/README.md) |
 | 22 | GraphQL - Introspection | ✅ Validado y documentado | [writeup](challenges/web-server/graphql-introspection/README.md) |
 | 23 | HTTP - Cookies | ✅ Validado y documentado | [writeup](challenges/web-server/http-cookies/README.md) |
-| 24 | Insecure Code Management | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/insecure-code-management/README.md) |
+| 24 | Insecure Code Management | ✅ Validado y documentado | [writeup](challenges/web-server/insecure-code-management/README.md) |
 | 25 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
 | 26 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
 | 27 | Directory traversal | ✅ Validado y documentado | [writeup](challenges/web-server/directory-traversal/README.md) |
@@ -255,6 +255,7 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 2026-10-28 | API - Mass Assignment | Resuelto y validado al elevar el rol con una propiedad no permitida por el flujo normal; la palomita y el «Like» fueron confirmados. | [web-server/api-mass-assignment](challenges/web-server/api-mass-assignment/README.md) |
 | 2026-10-28 | Flask - Unsecure session | Resuelto y validado al forjar una sesión Flask administrativa firmada con clave débil; la palomita y el «Like» fueron confirmados. | [web-server/flask-unsecure-session](challenges/web-server/flask-unsecure-session/README.md) |
 | 2026-10-29 | GraphQL - Introspection | Resuelto mediante introspección del esquema GraphQL; la palomita y el «Like» fueron confirmados. | [web-server/graphql-introspection](challenges/web-server/graphql-introspection/README.md) |
+| 2026-10-29 | Insecure Code Management | Resuelto al recuperar la versión histórica que contenía la contraseña; la palomita y el «Like» fueron confirmados. | [web-server/insecure-code-management](challenges/web-server/insecure-code-management/README.md) |
 
 ## Criterio de registro
 
