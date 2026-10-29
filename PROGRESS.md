@@ -33,7 +33,6 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 8 | Insecure Code Management | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/insecure-code-management/README.md) |
 | 9 | JWT - Introduction | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-introduction/README.md) |
 | 10 | XSS - Server Side | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xss-server-side/README.md) |
-
 | 11 | JWT - Revoked token | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-revoked-token/README.md) |
 | 12 | JWT - Weak secret | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-weak-secret/README.md) |
 | 13 | JWT - Unsecure File Signature | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-file-signature/README.md) |
@@ -44,6 +43,17 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 18 | Ruby on Rails - ransack | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/ruby-on-rails-ransack/README.md) |
 | 19 | SQL injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication/README.md) |
 | 20 | SQL injection - Authentication - GBK | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication-gbk/README.md) |
+| 21 | SQL injection - String | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-string/README.md) |
+| 22 | XSLT - Code execution | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/xslt-code-execution/README.md) |
+| 23 | Elixir - EEx | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/elixir-eex/README.md) |
+| 24 | JWT - Unsecure Key Handling | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-key-handling/README.md) |
+| 25 | LDAP injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/ldap-injection-authentication/README.md) |
+| 26 | Node - Serialize | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/node-serialize/README.md) |
+| 27 | NoSQL injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/nosql-injection-authentication/README.md) |
+| 28 | PHP - Path Truncation | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/php-path-truncation/README.md) |
+| 29 | SQL injection - Numeric | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-numeric/README.md) |
+| 30 | SQL Injection - Routed | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-routed/README.md) |
+
 ## Bitácora de revalidación
 
 | Fecha | Reto | Resultado | Writeup |
@@ -91,9 +101,15 @@ La ampliación comenzó con el primer reto marcado con X en el catálogo de Web 
 | 2026-10-28 | Hash - Message Digest 5 | Técnica de comparación MD5 documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/hash-md5](challenges/cryptanalysis/hash-md5/README.md) |
 | 2026-10-28 | Hash - SHA-2 | Técnica de comparación SHA-2 documentada; la cuenta confirma la resolución y se registró «Like». | [cryptanalysis/hash-sha-2](challenges/cryptanalysis/hash-sha-2/README.md) |
 | 2026-10-28 | Bash - System 1 | Técnica de PATH hijacking en binario SUID documentada; la cuenta confirma la resolución y se registró «Like». | [app-script/bash-system-1](challenges/app-script/bash-system-1/README.md) |
+| 2026-10-28 | HTTP - IP restriction bypass | Resuelto y validado al declarar una IP privada en `X-Forwarded-For`; la palomita y el «Like» fueron confirmados. | [web-server/http-ip-restriction-bypass](challenges/web-server/http-ip-restriction-bypass/README.md) |
+| 2026-10-28 | API - Broken Access | Resuelto y validado al consultar sin autorización el objeto administrativo con ID predecible; la palomita y el «Like» fueron confirmados. | [web-server/api-broken-access](challenges/web-server/api-broken-access/README.md) |
+| 2026-10-28 | Nginx - Alias Misconfiguration | Resuelto y validado mediante el patrón `assets../` de alias traversal; la palomita y el «Like» fueron confirmados. | [web-server/nginx-alias-misconfiguration](challenges/web-server/nginx-alias-misconfiguration/README.md) |
+| 2026-10-28 | Nginx - Root Location Misconfiguration | Resuelto y validado al leer configuración Nginx expuesta por el `root` global; la palomita y el «Like» fueron confirmados. | [web-server/nginx-root-location-misconfiguration](challenges/web-server/nginx-root-location-misconfiguration/README.md) |
+| 2026-10-28 | API - Mass Assignment | Resuelto y validado al elevar el rol con una propiedad no permitida por el flujo normal; la palomita y el «Like» fueron confirmados. | [web-server/api-mass-assignment](challenges/web-server/api-mass-assignment/README.md) |
+| 2026-10-28 | Flask - Unsecure session | Resuelto y validado al forjar una sesión Flask administrativa firmada con clave débil; la palomita y el «Like» fueron confirmados. | [web-server/flask-unsecure-session](challenges/web-server/flask-unsecure-session/README.md) |
 
 ## Criterio de registro
 
-- Un writeup cuenta como documentado cuando explica el reto de forma reproducible y no incluye flags ni credenciales.
+- Un writeup cuenta como documentado cuando explica el reto de forma reproducible y no incluye flags ni credenciales. Desde el reto 44, las validaciones nuevas se resuelven en el orden del catálogo y se registran también en Root-Me.
 - Las cantidades del catálogo y las validaciones de la cuenta se obtienen desde [Root-Me Challenges](https://www.root-me.org/en/Challenges/) en inglés, que es la fuente de verdad de este seguimiento.
 - Los retos que ya aparezcan resueltos en la cuenta se registrarán por separado de los writeups pendientes, para no confundir progreso en plataforma con documentación local.
