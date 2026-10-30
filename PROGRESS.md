@@ -13,9 +13,9 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-29**. E
 | Programming | 29 | 0 | 0 | ⏳ Sin validaciones previas |
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
-| Web - Client | 42 | 11 | 11 | 🚧 Ampliación en orden de catálogo |
+| Web - Client | 42 | 13 | 13 | 🚧 Ampliación en orden de catálogo |
 | Web - Server | 97 | 40 | 40 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **64** | **64** | **🚧 Ampliación en curso** |
+| **Total** | **558** | **66** | **66** | **🚧 Ampliación en curso** |
 
 ## Desglose de validados y documentados
 
@@ -32,9 +32,9 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 | Programming | 0 | Sin retos validados y documentados |
 | Realist | 0 | Sin retos validados y documentados |
 | Steganography | 0 | Sin retos validados y documentados |
-| Web - Client | 11 | Listado completo abajo |
+| Web - Client | 13 | Listado completo abajo |
 | Web - Server | 40 | Listado completo abajo |
-| **Total** | **64** | **1 + 4 + 4 + 4 + 11 + 40** |
+| **Total** | **66** | **1 + 4 + 4 + 4 + 13 + 40** |
 
 ## Categorías — retos validados y documentados
 
@@ -89,7 +89,7 @@ Aún no hay retos validados y documentados en esta categoría.
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Web - Client — 11 de 42 resueltos (26.2%)
+### Web - Client — 13 de 42 resueltos (31.0%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -104,6 +104,8 @@ Aún no hay retos validados y documentados en esta categoría.
 | 9 | Javascript - Obfuscation 3 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-3/README.md) |
 | 10 | XSS - Stored 1 | ✅ Validado y documentado | [writeup](challenges/web-client/xss-stored-1/README.md) |
 | 11 | AST - Deobfuscation | ✅ Validado y documentado | [writeup](challenges/web-client/ast-deobfuscation/README.md) |
+| 17 | Flash - Authentication | ✅ Validado y documentado | [writeup](challenges/web-client/flash-authentication/README.md) |
+| 29 | Javascript - Obfuscation 4 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-4/README.md) |
 ### Web - Server — 40 de 97 resueltos (41.2%)
 
 Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
@@ -276,6 +278,8 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 2026-10-29 | SQL injection - Authentication | Resuelto al cerrar la cadena de usuario y comentar la condición de contraseña; la palomita y el «Like» fueron confirmados. | [web-server/sql-injection-authentication](challenges/web-server/sql-injection-authentication/README.md) |
 | 2026-10-29 | Javascript - Webpack | Resuelto al revisar el bundle y sus referencias de mapa de fuente; la palomita y el «Like» fueron confirmados. | [web-client/javascript-webpack](challenges/web-client/javascript-webpack/README.md) |
 | 2026-10-29 | AST - Deobfuscation | Resuelto al sanear el AST y regenerar el código resultante; la palomita y el «Like» fueron confirmados. | [web-client/ast-deobfuscation](challenges/web-client/ast-deobfuscation/README.md) |
+| 2026-10-29 | Flash - Authentication | Resuelto al revisar la comparación de autenticación presente en el recurso cliente; la palomita y el «Like» fueron confirmados. | [web-client/flash-authentication](challenges/web-client/flash-authentication/README.md) |
+| 2026-10-29 | Javascript - Obfuscation 4 | Resuelto al desofuscar las transformaciones de cadena entregadas al cliente; la palomita y el «Like» fueron confirmados. | [web-client/javascript-obfuscation-4](challenges/web-client/javascript-obfuscation-4/README.md) |
 
 ## Criterio de registro
 
