@@ -1,6 +1,6 @@
 # Progreso — Root-Me
 
-Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-29**. Este registro reúne los retos cuya validación en plataforma y documentación en el repositorio están confirmadas.
+Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-30**. Este registro reúne los retos cuya validación en plataforma y documentación en el repositorio están confirmadas.
 
 | Categoría | Catálogo | Validados en plataforma | Validados y documentados | Estado |
 |---|---:|---:|---:|---|
@@ -13,9 +13,9 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-29**. E
 | Programming | 29 | 0 | 0 | ⏳ Sin validaciones previas |
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
-| Web - Client | 42 | 13 | 13 | 🚧 Ampliación en orden de catálogo |
+| Web - Client | 42 | 15 | 15 | 🚧 Ampliación en orden de catálogo |
 | Web - Server | 97 | 40 | 40 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **66** | **66** | **🚧 Ampliación en curso** |
+| **Total** | **558** | **68** | **68** | **🚧 Ampliación en curso** |
 
 ## Desglose de validados y documentados
 
@@ -32,9 +32,9 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 | Programming | 0 | Sin retos validados y documentados |
 | Realist | 0 | Sin retos validados y documentados |
 | Steganography | 0 | Sin retos validados y documentados |
-| Web - Client | 13 | Listado completo abajo |
+| Web - Client | 15 | Listado completo abajo |
 | Web - Server | 40 | Listado completo abajo |
-| **Total** | **66** | **1 + 4 + 4 + 4 + 13 + 40** |
+| **Total** | **68** | **1 + 4 + 4 + 4 + 15 + 40** |
 
 ## Categorías — retos validados y documentados
 
@@ -89,7 +89,7 @@ Aún no hay retos validados y documentados en esta categoría.
 
 Aún no hay retos validados y documentados en esta categoría.
 
-### Web - Client — 13 de 42 resueltos (31.0%)
+### Web - Client — 15 de 42 resueltos (35.7%)
 
 | # | Reto | Estado | Writeup |
 |---:|---|---|---|
@@ -106,6 +106,8 @@ Aún no hay retos validados y documentados en esta categoría.
 | 11 | AST - Deobfuscation | ✅ Validado y documentado | [writeup](challenges/web-client/ast-deobfuscation/README.md) |
 | 17 | Flash - Authentication | ✅ Validado y documentado | [writeup](challenges/web-client/flash-authentication/README.md) |
 | 29 | Javascript - Obfuscation 4 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-4/README.md) |
+| 36 | Javascript - Obfuscation 6 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-6/README.md) |
+| 40 | Javascript - Obfuscation 5 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-5/README.md) |
 ### Web - Server — 40 de 97 resueltos (41.2%)
 
 Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
