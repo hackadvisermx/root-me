@@ -19,9 +19,9 @@ El campo Search se concatena dentro de una búsqueda SQLite `LIKE`. La inyecció
 3. Consultar `sqlite_master` y `pragma_table_info(...)` para identificar las tablas y columnas relevantes.
 4. Usar la consulta resultante sobre la tabla de usuarios únicamente para obtener el valor que Root-Me pide validar.
 
-## Estado de revalidación
+## Verificación
 
-El contexto `LIKE`, SQLite y el conteo de columnas fueron contrastados por análisis independiente. Falta ejecutar la enumeración contra la instancia Start autenticada, validar y registrar el «Like».
+La enumeración fue reproducida contra la instancia vigente. Root-Me confirmó la palomita y el «Like»; el valor de validación no se incluye en el repositorio.
 
 ## Notas adicionales
 

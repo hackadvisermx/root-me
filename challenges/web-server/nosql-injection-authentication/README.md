@@ -23,9 +23,9 @@ Los campos de autenticación se convierten en objetos de consulta NoSQL. Operado
 
 3. Usar el nombre devuelto exclusivamente para validar en Root-Me.
 
-## Estado de revalidación
+## Verificación
 
-El comportamiento del filtro y la técnica de exclusión fueron corroborados con análisis público. Falta repetirlo en la instancia Start autenticada, validar y registrar el «Like».
+La técnica de exclusión fue reproducida contra la instancia vigente. Root-Me confirmó la palomita y el «Like»; el valor de validación no se incluye en el repositorio.
 
 ## Notas adicionales
 

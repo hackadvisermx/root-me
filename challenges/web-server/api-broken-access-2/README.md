@@ -14,9 +14,9 @@ El recurso de perfil confía en un identificador UUID de versión 1 predecible. 
 3. Reconstruir el UUID v1 con esos componentes y solicitar el perfil con el identificador derivado.
 4. Usar el valor de la nota devuelta exclusivamente para validarlo en Root-Me.
 
-## Estado de revalidación
+## Verificación
 
-El endpoint, la versión UUID y el proceso de reconstrucción fueron corroborados con un writeup público. Falta ejecutarlo contra la instancia Start autenticada, validar y registrar el «Like».
+La reconstrucción del UUID fue reproducida contra la instancia vigente. Root-Me confirmó la palomita y el «Like»; el valor de validación no se incluye en el repositorio.
 
 ## Notas adicionales
 

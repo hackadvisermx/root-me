@@ -14,9 +14,9 @@ La aplicación concatena un valor de búsqueda en una expresión XPath que devue
 3. Obtener la longitud y cada carácter del texto objetivo con predicados XPath, registrando solo los resultados necesarios para el reto.
 4. Validar el valor reconstruido en Root-Me y registrar el «Like».
 
-## Estado de revalidación
+## Verificación
 
-La extracción de texto mediante predicados XPath fue corroborada con material público. Falta reproducirla en la instancia Start autenticada, validar y registrar el «Like».
+La extracción mediante predicados XPath fue reproducida contra la instancia vigente. Root-Me confirmó la palomita y el «Like»; el valor de validación no se incluye en el repositorio.
 
 ## Notas adicionales
 

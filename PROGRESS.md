@@ -14,8 +14,8 @@ Inventario de la interfaz en inglés de Root-Me, consultado el **2026-10-30**. E
 | Realist | 62 | 0 | 0 | ⏳ Sin validaciones previas |
 | Steganography | 24 | 0 | 0 | ⏳ Sin validaciones previas |
 | Web - Client | 42 | 15 | 15 | 🚧 Ampliación en orden de catálogo |
-| Web - Server | 97 | 40 | 40 | 🚧 Ampliación en orden de catálogo |
-| **Total** | **558** | **68** | **68** | **🚧 Ampliación en curso** |
+| Web - Server | 97 | 45 | 45 | 🚧 Ampliación en orden de catálogo |
+| **Total** | **558** | **73** | **73** | **🚧 Ampliación en curso** |
 
 ## Desglose de validados y documentados
 
@@ -33,8 +33,8 @@ Los números de esta sección son el detalle trazable del concentrado superior. 
 | Realist | 0 | Sin retos validados y documentados |
 | Steganography | 0 | Sin retos validados y documentados |
 | Web - Client | 15 | Listado completo abajo |
-| Web - Server | 40 | Listado completo abajo |
-| **Total** | **68** | **1 + 4 + 4 + 4 + 15 + 40** |
+| Web - Server | 45 | Listado completo abajo |
+| **Total** | **73** | **1 + 4 + 4 + 4 + 15 + 45** |
 
 ## Categorías — retos validados y documentados
 
@@ -108,7 +108,7 @@ Aún no hay retos validados y documentados en esta categoría.
 | 29 | Javascript - Obfuscation 4 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-4/README.md) |
 | 36 | Javascript - Obfuscation 6 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-6/README.md) |
 | 40 | Javascript - Obfuscation 5 | ✅ Validado y documentado | [writeup](challenges/web-client/javascript-obfuscation-5/README.md) |
-### Web - Server — 40 de 97 resueltos (41.2%)
+### Web - Server — 45 de 97 resueltos (46.4%)
 
 Esta es la única secuencia de Web Server y reproduce el orden visual actual del catálogo oficial. Incluye los retos validados y documentados, los writeups pendientes de validación y los retos todavía sin documentar.
 
@@ -169,22 +169,22 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 53 | Ruby on Rails - ransack | ✅ Validado y documentado | [writeup](challenges/web-server/ruby-on-rails-ransack/README.md) |
 | 54 | SQL injection - Authentication | ✅ Validado y documentado | [writeup](challenges/web-server/sql-injection-authentication/README.md) |
 | 55 | SQL injection - Authentication - GBK | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-authentication-gbk/README.md) |
-| 56 | SQL injection - String | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-string/README.md) |
+| 56 | SQL injection - String | ✅ Validado y documentado | [writeup](challenges/web-server/sql-injection-string/README.md) |
 | 57 | XSLT - Code execution | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/xslt-code-execution/README.md) |
 | 58 | Elixir - EEx | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/elixir-eex/README.md) |
 | 59 | JWT - Unsecure Key Handling | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/jwt-unsecure-key-handling/README.md) |
 | 60 | LDAP injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/ldap-injection-authentication/README.md) |
 | 61 | Node - Serialize | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/node-serialize/README.md) |
-| 62 | NoSQL injection - Authentication | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/nosql-injection-authentication/README.md) |
+| 62 | NoSQL injection - Authentication | ✅ Validado y documentado | [writeup](challenges/web-server/nosql-injection-authentication/README.md) |
 | 63 | PHP - Path Truncation | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/php-path-truncation/README.md) |
 | 64 | PHP - Serialization | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/php-serialization/README.md) |
-| 65 | SQL injection - Numeric | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-numeric/README.md) |
+| 65 | SQL injection - Numeric | ✅ Validado y documentado | [writeup](challenges/web-server/sql-injection-numeric/README.md) |
 | 66 | SQL Injection - Routed | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-routed/README.md) |
 | 67 | SQL Truncation | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-truncation/README.md) |
 | 68 | XML External Entity | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xml-external-entity/README.md) |
 | 69 | XPath injection - Authentication | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/xpath-injection-authentication/README.md) |
 | 70 | Yaml - Deserialization | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/yaml-deserialization/README.md) |
-| 71 | API - Broken Access 2 | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/api-broken-access-2/README.md) |
+| 71 | API - Broken Access 2 | ✅ Validado y documentado | [writeup](challenges/web-server/api-broken-access-2/README.md) |
 | 72 | GraphQL - Backend injection | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-backend-injection/README.md) |
 | 73 | GraphQL - Mutation | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/graphql-mutation/README.md) |
 | 74 | Java - Spring Boot | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/java-spring-boot/README.md) |
@@ -194,7 +194,7 @@ Esta es la única secuencia de Web Server y reproduce el orden visual actual del
 | 78 | SQL injection - Error | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-error/README.md) |
 | 79 | SQL injection - Insert | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-insert/README.md) |
 | 80 | SQL injection - File reading | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/sql-injection-file-reading/README.md) |
-| 81 | XPath injection - String | 🟡 Técnica reproducida; pendiente de validación y «Like» | [writeup](challenges/web-server/xpath-injection-string/README.md) |
+| 81 | XPath injection - String | ✅ Validado y documentado | [writeup](challenges/web-server/xpath-injection-string/README.md) |
 | 82 | File upload - Polyglot | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/file-upload-polyglot/README.md) |
 | 83 | NodeJS - Prototype Pollution Bypass | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/nodejs-prototype-pollution-bypass/README.md) |
 | 84 | NoSQL injection - Blind | 🟡 Técnica documentada; pendiente de validación y «Like» | [writeup](challenges/web-server/nosql-injection-blind/README.md) |

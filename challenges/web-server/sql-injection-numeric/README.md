@@ -19,9 +19,9 @@ Un parámetro numérico no visible en la interfaz se inserta directamente en una
 3. Usar `sqlite_master` para localizar la tabla de usuarios y sus columnas.
 4. Proyectar los campos requeridos en las posiciones visibles y usar el valor devuelto únicamente en Root-Me.
 
-## Estado de revalidación
+## Verificación
 
-La inyección numérica, SQLite y el `UNION` de tres columnas fueron contrastados con un análisis público. Falta ejecutarlo en la instancia Start autenticada, validar y registrar el «Like».
+La enumeración fue reproducida contra la instancia vigente. Root-Me confirmó la palomita y el «Like»; el valor de validación no se incluye en el repositorio.
 
 ## Notas adicionales
 
